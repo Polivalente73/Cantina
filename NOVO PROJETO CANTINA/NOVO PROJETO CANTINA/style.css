@@ -1,0 +1,109 @@
+/* Estilos CSS para o seu site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Praia.jpg); /* Especifique o caminho da sua imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    border: 10px solid rgb(51, 0, 255); 
+}
+
+/* O restante do seu CSS permanece o mesmo */
+
+header {
+    background-color: rgb(129, 241, 17);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul.product-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Exibe os produtos em uma linha */
+    flex-wrap: wrap; /* Quebra para a próxima linha quando não há espaço suficiente */
+    justify-content: space-between; /* Espaço entre os produtos */
+}
+
+li.product {
+    display: inline-block;
+    width: calc(100% - 10px); /* Largura para dois produtos em uma linha com espaço */
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Inclui margens no tamanho total */
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente os elementos da lista */
+    background-color: #b9b8c6;
+    list-style: none;
+}
+
+.product {
+    text-align: center; /* Centraliza o conteúdo dos elementos da lista */
+    margin: 0 10px; /* Adiciona um espaçamento lateral entre os produtos (opcional) */
+}
+
+.product img {
+    max-width: 100%; /* Certifica-se de que as imagens não ultrapassem o tamanho dos elementos pai */
+}
+.product-image {
+    width: 500px; /* Defina o tamanho desejado em pixels */
+    height: 500px; /* Defina a mesma altura para manter a proporção */
+}
+section {
+    text-align: center; /* Centraliza o conteúdo do elemento section */
+  }
+
+  /* Estilizando os botões */
+.add-to-cart {
+    background-color: #007BFF; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: none; /* Remover a borda */
+    border-radius: 20px; /* Deixa os cantos arredondados */
+    padding: 10px 20px; /* Espaçamento interno (altere conforme necessário) */
+    cursor: pointer; /* Transforma o cursor em uma mãozinha ao passar o mouse */
+    transition: background-color 0.3s; /* Adiciona uma transição suave de cor de fundo */
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse sobre o botão */
+}
+/* Estilizando o nome dos produtos em negrito */
+.product-name {
+    font-weight: bold;
+}
+
+
+
